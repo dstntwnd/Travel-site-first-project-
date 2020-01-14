@@ -5,7 +5,11 @@ The idea behind the project is to provide a place for any wanting to travel to h
 I wanted the interface to be inspiring, exciting, and intriguing; while maintaining a sense of simplicity for the end user.
 
 **tech stack**
+<br>
 google maps api
+<br>
 html5
+<br>
 css3
+<br>
 javascript
