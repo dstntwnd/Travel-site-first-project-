@@ -4,7 +4,7 @@ The idea behind the project is to provide a place for any wanting to travel to h
 
 I wanted the interface to be inspiring, exciting, and intriguing; while maintaining a sense of simplicity for the end user.
 
-**tech stack**
+<h3>Stack</h3>
 <br>
 google maps api
 <br>
@@ -13,3 +13,12 @@ html5
 css3
 <br>
 javascript
+
+<h3>To view the site</h3>
+  <ol>Select ""Clone or Download" dropdown</ol>
+  <ol>"Open in desktop"</ol>
+  <ol>"Open the repository in your external editor"</ol>
+  <ol>open "main page" folder</ol>
+  <ol>Right click "mainpage.html"</ol>
+  <ol>"Copy full path"</ol>
+  <ol>Paste link in internet search bar</ol>
