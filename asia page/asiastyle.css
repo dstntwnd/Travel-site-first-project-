@@ -1,0 +1,88 @@
+<style media="screen">
+
+header{
+}
+
+body{
+  background-image: url("https://cimg2.ibsrv.net/cimg/www.fodors.com/2000x2000_60-1/890/Asia_MtFuji-348890.png");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  color: LightGreen;
+  font-family: 'Akronim', cursive;
+  font-size: 70px;
+}
+
+p{
+  text-align: center;
+  padding-bottom: 30px;
+  color: darkgreen;
+  font-family: 'Kaushan Script', cursive;
+}
+
+button{
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 550px;
+}
+
+figure{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+ul{
+  list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asia_%28orthographic_projection%29.svg/30px-Asia_%28orthographic_projection%29.svg.png");
+}
+
+div{
+  display: inline-block;
+  width: 320px;
+  vertical-align: top;
+  padding-bottom: 50px;
+  font-weight: bolder;
+}
+
+li{
+  background: rgba(204, 204, 204, 0.5);
+}
+
+.popular{
+  float: left;
+}
+
+.popular p{
+  font-style: italic;
+  font-size: 22px;
+}
+
+.popular li:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+.lesspopular{
+  float: right;
+}
+
+.lesspopular p{
+  font-style: italic;
+  font-size: 22px;
+}
+
+.lesspopular li:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+</style>

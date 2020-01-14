@@ -1,0 +1,99 @@
+<style media="screen">
+
+header{
+}
+
+body{
+  text-align: center;
+  background-image: url("https://i.imgur.com/SeBEyZB.gif");
+  background-repeat: no repeat;
+  background-size: cover;
+}
+
+h1{
+  color: #eb0000;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  font-family: 'Caveat', cursive;
+  font-size: 70px;
+}
+
+mark.flag{
+  color: white;
+  background: none;
+}
+
+p{
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  color: lightblue;
+  margin-bottom: 30px;
+}
+
+div{
+  display: inline-block;
+  width: 320px;
+  vertical-align: top;
+  font-weight: bolder;
+}
+
+ul{
+  list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/25px-CAN_orthographic.svg.png");
+}
+
+li{
+  background-color: rgba(74, 191, 154, 0.4);
+  color: white;
+}
+
+.popular{
+  float: left;
+}
+
+.popular li:hover{
+  color: #eb0000;
+  background-image: url("https://i.imgur.com/SeBEyZB.gif");
+  transform: scale(1.1);
+}
+
+.popular p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.lesspopular{
+  float: right;
+}
+
+.lesspopular li:hover{
+  background-image: url("https://i.imgur.com/SeBEyZB.gif");
+  color: #eb0000;
+  transform: scale(1.1);
+}
+
+.lesspopular p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+figure{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+button{
+  width: 60px;
+  height: 35px;
+  margin-bottom: 50px;
+  margin-top: 400px;
+  border-radius: 50%;
+  color: white;
+  background-color: #eb0000;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+}
+
+<style>

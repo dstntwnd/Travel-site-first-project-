@@ -1,0 +1,91 @@
+<style media="screen">
+
+header{
+
+}
+
+body{
+  text-align: center;
+  background-image: url("https://thumbs.gfycat.com/PalatableIlliterateChickadee-size_restricted.gif");
+  background-repeat: no repeat;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  color: #8082ff;
+  font-size: 70px;
+}
+
+p{
+  text-align: center;
+  color: #fdff80;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 30px;
+}
+
+div{
+  display: inline-block;
+  width: 320px;
+  vertical-align: top;
+  font-weight: bolder;
+}
+
+ul{
+  list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/NZL_orthographic_NaturalEarth.svg/30px-NZL_orthographic_NaturalEarth.svg.png");
+
+}
+
+li{
+  background: rgba(204, 204, 204, 0.3);
+}
+
+.popular{
+  float: left;
+}
+
+.popular li:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+.popular p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.lesspopular{
+  float: right;
+}
+
+.lesspopular li:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+.lesspopular p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+figure{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+button{
+  margin-bottom: 50px;
+  margin-top: 430px;
+  border-radius: 50%;
+  color: #e4c811;
+  background-color: darkred;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Courgette', cursive;
+}
+
+<style>

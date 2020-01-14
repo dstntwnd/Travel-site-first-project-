@@ -1,0 +1,237 @@
+<style media="screen">
+
+header{
+
+}
+
+  .slideshow{
+    position: relative;
+    padding-top: 5px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .content{
+    margin: inherit;
+    width: 1000px;
+    perspective: 1000px;
+    position: absolute;
+  }
+
+  .content-carrousel{
+    width: 15%;
+    position: absolute;
+    animation: rotateY 20s infinite linear;
+    transform-style: preserve-3d;
+  }
+
+  .content-carrousel{
+    animation-play-state: running;
+    cursor: grab;
+  }
+
+  .content-carrousel:hover{
+    animation-play-state: paused;
+  }
+
+  .content-carrousel figure{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #4d444d;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .content-carrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(300px);
+  }
+
+  .shadow{
+    position: absolute;
+    box-shadow: 0px 0px 40px 0px #000;
+    border-radius: 2px;
+  }
+
+  .earth {
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-image: url("https://media.treehugger.com/assets/images/2013/06/1.jpg");
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 30s linear alternate infinite;
+  }
+
+  @keyframes spin{
+    100%{background-position:100%};
+  }
+
+  .content-carrousel img{
+    image-rendering: auto;
+    transition: all 300ms;
+    height: all 300ms;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-carrousel img:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+  }
+
+  @keyframes rotateY{
+    from{
+      transform: rotateY(0deg);
+    } to{
+      transform: rotateY(360deg);
+    }
+  }
+
+  div {
+    margin-left: 550px;
+  }
+
+  h1{
+    align-content: center;
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+    color: darkred;
+    text-shadow: 4px;
+    border: 4px;
+    border-style: inset;
+    border-color: lightsilver;
+    border-radius: 25px;
+  }
+
+  h3{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+    color: darkred;
+    text-shadow: 4px;
+  }
+
+  p {
+    align-content: center;
+    margin-top: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 17px;
+    display: inline-flex;
+    background: rgba(250, 250, 250, 0.3);
+  }
+
+body{
+   text-align: center;
+   background-image: url(https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-1.2.1&amp);
+   background-repeat: no-repeat;
+   background-size: 100% 110%;
+}
+
+footer{
+  margin-top: 120px;
+}
+
+button{
+  color: lightsilver;
+  border: 3px ridge;
+  border-color: lightblue;
+  margin: 3px;
+}
+
+#button1{
+ background: url("https://kuql-fm.sagacom.com/wp-content/blogs.dir/100/files/2017/07/AMERICAN-FLAG-1.jpg");
+background-size: 50px;
+font-weight: bolder;
+}
+
+#button2{
+   background: url("https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg");
+background-size: 50px;
+font-weight: bolder;
+}
+
+#button3{
+   background: url("https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg");
+background-size: 85px;
+font-weight: bolder;
+color:
+}
+
+#button4{
+   background: url("https://cdn.pixabay.com/photo/2013/07/13/01/09/european-union-155207_960_720.png");
+background-size: 30px;
+font-weight: bolder;
+}
+
+#button5{
+   background: url("https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_the_Union_of_South_American_Nations.svg");
+background-size: 105px;
+font-weight: bolder;
+}
+
+#button6{
+   background: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png");
+background-size: 37px;
+font-weight: bolder;
+}
+
+#button7{
+   background: url("https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg");
+background-size: 35px;
+font-weight: bolder;
+}
+
+#button8{
+   background: url("https://images-na.ssl-images-amazon.com/images/I/41Rw%2BW7b2%2BL._SX425_.jpg");
+background-size: 23px;
+font-weight: bolder;
+}
+
+#button9{
+   background: url("https://cdn1.vectorstock.com/i/1000x1000/98/00/african-countries-flags-icons-set-vector-20839800.jpg");
+background-size: 69px;
+font-weight: bolder;
+}
+
+</style>

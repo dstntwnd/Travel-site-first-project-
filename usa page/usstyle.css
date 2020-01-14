@@ -1,0 +1,106 @@
+<style media="screen">
+
+header{
+
+}
+
+body{
+  text-align: center;
+  background-image: url("https://media.architecturaldigest.com/photos/5b7dc0c5f3a08c0bc142f98f/3:2/w_3000,h_2000,c_limit/GettyImages-617579982.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  font-family: 'Bad Script', cursive;
+  font-size: 70px;
+}
+
+mark.red{
+  background: none;
+  color: red;
+}
+
+mark.blue{
+  background: none;
+  color: blue;
+}
+
+mark.white{
+  background: none;
+  color: white;
+}
+
+p{
+  text-align: center;
+  font-family: 'Playball', cursive;
+  color: #a81f1f;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+div{
+  display: inline-block;
+  width: 320px;
+  vertical-align: top;
+  font-weight: bolder;
+}
+
+ul{
+  list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/USA_orthographic.svg/30px-USA_orthographic.svg.png");
+
+}
+
+li{
+  background: rgba(204, 204, 204, 0.3);
+}
+
+.popular{
+  float: left;
+}
+
+.popular li:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+.popular p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.lesspopular{
+  float: right;
+}
+
+.lesspopular li:hover{
+  color: white;
+  transform: scale(1.1);
+}
+
+.lesspopular p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+figure{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+button{
+  margin-bottom: 50px;
+  margin-top: 400px;
+  border-radius: 50%;
+  color: #e4c811;
+  background-color: darkred;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Playball', cursive;
+}
+
+<style>
